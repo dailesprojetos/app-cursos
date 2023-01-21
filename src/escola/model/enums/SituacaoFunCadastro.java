@@ -2,12 +2,12 @@ package escola.model.enums;
 
 public enum SituacaoFunCadastro {
 	
-	ATIVO(1L,"Ativo"), DESLIGADO(2L,"Desligado");
+	ATIVO(1L,"ativo"), DESLIGADO(2L,"desligado");
 	
 	private Long id;
 	private String situacao;
 
-	SituacaoFunCadastro(Long id, String situacao) {
+	private SituacaoFunCadastro(Long id, String situacao) {
 		this.id = id;
 		this.situacao = situacao;
 	}

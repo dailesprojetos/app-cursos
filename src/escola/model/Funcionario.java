@@ -65,7 +65,7 @@ public class Funcionario extends Pessoa implements Tributos {
 	}
 
 	@Override
-	public Double calculaInss(double salario) {
+	public Double calculaInss(Double salario) {
 
 		Double calculo = (salario <= 1302.00) ? salario = salario * 0.075
 				: (salario >= 1302.01 || salario <= 2271.29) ? salario = salario * 0.09
@@ -76,7 +76,7 @@ public class Funcionario extends Pessoa implements Tributos {
 	}
 
 	@Override
-	public Double calculaIR(double salario) {
+	public Double calculaIR(Double salario) {
 
 		if (salario >= 1903.99 || salario <= 2826.65)
 			salario = salario * 0.075;
@@ -89,12 +89,12 @@ public class Funcionario extends Pessoa implements Tributos {
 	}
 
 	@Override
-	public Double calculaValeRefeicao(double salario) {
+	public Double calculaValeRefeicao(Double salario) {
 		return salario * 0.10;
 	}
 
 	@Override
-	public Double calculaValeTransporte(double salario) {
+	public Double calculaValeTransporte(Double salario) {
 		return salario * 0.06;
 	}
 

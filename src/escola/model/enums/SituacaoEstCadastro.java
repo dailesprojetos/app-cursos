@@ -2,7 +2,7 @@ package escola.model.enums;
 
 public enum SituacaoEstCadastro {
 
-	ATIVO(1L, "Ativo"), INATIVO(2L, "Inativo"), EVADIDO(3L, "Evadido"), INADIMPLENTE(4L, "Inadimplente");
+	ATIVO(1L, "ativo"), INATIVO(2L, "inativo"), EVADIDO(3L, "evadido"), INADIMPLENTE(4L, "inadimplente");
 	
 	private Long id;
 	private String situacao;

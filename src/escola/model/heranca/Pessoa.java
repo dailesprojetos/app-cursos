@@ -63,5 +63,7 @@ public abstract class Pessoa {
 	public void setContato(Contato contato) {
 		this.contato = contato;
 	}
+
+	public abstract String toString();
 	
 }

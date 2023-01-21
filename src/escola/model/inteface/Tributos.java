@@ -2,9 +2,9 @@ package escola.model.inteface;
 
 public interface Tributos {
 	
-	public Double calculaInss(double salario);
-	public Double calculaIR(double salario);
-	public Double calculaValeRefeicao(double salario);
-	public Double calculaValeTransporte(double salario);        
+	Double calculaInss(Double salario);
+	Double calculaIR(Double salario);
+	Double calculaValeRefeicao(Double salario);
+	Double calculaValeTransporte(Double salario);        
 
 }
